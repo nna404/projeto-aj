@@ -6,15 +6,18 @@
 }
 
 :root {
-    --backgroundbody: #4E1884;
-    --texth1: #3A1262;
+    --textshadow: #6F4675;
+    --textp: #B736CA;
+    --texth1: #D918F5;
+    --background : #322C33;
     --fonte0: Arial, Helvetica, sans-serif;
 }
 
 article > h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    color: var(--texth1);
+    color: #4E1884;
+    
 }
 
 #home-article {
