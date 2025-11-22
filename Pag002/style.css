@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --textshadow: #6F4675;
+    --textp: #B736CA;
+    --texth1: #D918F5;
+    --background : #322C33;
+    --fonte0: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(17, 10, 25, 0.85);
+   
+}
+
+nav {
+    margin: auto;
+}
+
+a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    
+    color: rgba(255, 255, 255, 0.932);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #D918F5;
+}
+
+article.textpag2 > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0f0f0f3;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+
+
+article.textpag2-2 > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #f0f0f0c4;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.spotify-glass {
+    
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    
+    border-radius: 16px;
+    padding: 10px; 
+    max-width: 400px; 
+    margin: 70px auto; 
+    
+    
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    
+    transition: transform 0.3s ease;
+    
+}
+
+
+.spotify-glass:hover {
+    transform: scale(1.02);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+main {
+    background-color: var(--background);
+    border-radius: 8px;
+    width: 50vh;
+    height: 50vh;
+   
+    box-shadow: 1px 2px 2px rgba(17, 10, 25, 0.85);
+    padding: 20px;
+    margin: 70px auto;
+}
